@@ -1,15 +1,42 @@
-# server
+## Express Quick Start Typescript Template
 
-To install dependencies:
+### Tech Stack
 
-```bash
-bun install
+- #### [NodeJS](https://nodejs.org/en)
+
+- #### [Express](https://expressjs.com/)
+
+- #### [Typescript](https://www.typescriptlang.org/)
+
+### Features
+
+- #### Typesafe Environment variables and data validation with [Zod](https://zod.dev/) schema
+- #### Customizable path alias `@/*`
+
+### Run Locally
+
+#### Clone the project
+
+```js
+  git clone https://github.com/bibekjodd/express-starter-ts
 ```
 
-To run:
+#### Install dependencies
 
-```bash
-bun run index.ts
+```js
+  npm install
 ```
 
-This project was created using `bun init` in bun v1.1.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+#### Start the server
+
+```js
+ npm run build && npm run start
+ or
+ npm run start
+```
+
+#### Start development server
+
+```js
+  npm run dev
+```
